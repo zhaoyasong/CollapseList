@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cnpc.hyxt.zys.collapselist.MainActivity">
+
+    <com.cnpc.hyxt.zys.collapselist.PinnedHeaderExpandableListView
+        android:id="@+id/exp_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:scrollbars="none"
+        android:scrollingCache="true" >
+    </com.cnpc.hyxt.zys.collapselist.PinnedHeaderExpandableListView>
+</RelativeLayout>
